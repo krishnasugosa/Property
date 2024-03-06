@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(63, 63, 63);
+}
+
+.container{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    cursor: pointer;
+}
+
+.wrapper{
+    min-width: 100%;
+    min-height: 10vh;
+    background-color: rgb(28, 28, 28);
+    padding: 10px;
+}
+
+.inner{
+    text-align: center;
+    padding: 5px;
+}
+
+.inner h1{
+    background: linear-gradient(rgb(26, 208, 240),rgb(214, 216, 58),rgb(233, 90, 47));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: monospace;
+}
+
+.tittle{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+.container-2{
+    padding: 25px;
+}
+.box1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 1.5rem;
+}
+.dox1{
+    background-color: white;
+    border: 8px solid rgb(187, 96, 96);
+    border-radius: 10px;
+    height: 300px;
+    padding: 20px;
+}
+.dox2{
+    background-color: white;
+    border: 8px solid rgb(101, 207, 101);
+    border-radius: 10px;
+    height: 300px;
+    padding: 20px;
+}
+.dox3{
+    background-color: white;
+    border: 8px solid rgb(92, 92, 215);
+    border-radius: 10px;
+    height: 300px;
+    padding: 20px;
+}
+
+.dox4{
+    background-color: white;
+    border: 8px solid rgb(215, 145, 92);
+    border-radius: 10px;
+    height: 300px;
+    padding: 20px;
+}
+
+.dox5{
+    background-color: white;
+    border: 8px solid rgb(215, 92, 190);
+    border-radius: 10px;
+    height: 300px;
+    padding: 20px;
+}
+
+.ps{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text h1{
+    padding: 20px;
+}
+
+.container-3{
+    padding: 30px;
+}
+
+.tittle2{
+    color: white;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1.5rem;
+}
+
+.doxx1{
+    background-color: white;
+    border: 8px solid rgb(187, 96, 96);
+    border-radius: 10px;
+    height: 300px;
+    padding: 20px;
+}
+
+.doxx2{
+    background-color: white;
+    border: 8px solid rgb(101, 207, 101);
+    border-radius: 10px;
+    height: 300px;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.511);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(12, 12, 42);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dd{
+    transition: box-shadow 0.5s ease;
+}
+.dd:hover{
+    box-shadow: 0px 0px 10px yellow;
+}
